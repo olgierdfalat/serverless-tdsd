@@ -10,5 +10,5 @@ build:
       - serverless deploy --stage cicd | tee deploy.out
 post_build:
     commands:
-      - . npm test
-      - . npm run integration:test
+      - npm test
+      - npm run integration:test
