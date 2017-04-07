@@ -11,4 +11,4 @@ phases:
   post_build:
     commands:
       - npm test
-      - npm run integration:test
+      - npm run test:integration
