@@ -18,7 +18,7 @@ describe('currentDate endpoint', () => {
     console.log('requesting:', url);
     return rp.get(options).then(res => {
       console.log('res', res);
-      expect(res.message).to.startsWith('Hello, the current date is');
+      expect(res.message).to.startsWith('Hell, the current date is');
     })
   });
 });
